@@ -1,5 +1,5 @@
 import requests
-import json
+
 response = requests.get("https://geo.api.gouv.fr/communes/59115")
 result = response.json()
 
